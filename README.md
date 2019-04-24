@@ -1,4 +1,4 @@
-# sqlanywhere-recordlocator
+# Recordlocator for SQL Anywhere
 
 **Two functions to encode and decode integers into a short and easy to read string**
 
@@ -19,9 +19,19 @@ With 6 chars you can encode integers up to more than 1 billion.
 
 ## Usage
 
+Encoding integers to recordlocators:
+
 ```sql
 SELECT RecordLocatorEncode(5325); -- returns '78G'
 
 SELECT RecordLocatorEncode(3512345); -- returns '5E82T'
+```
+
+Decoding recordlocators back into the integer values:
+
+```sql
+SELECT RecordLocatorDecode('78G'); -- returns 5325
+
+SELECT RecordLocatorDecode('5E82T'); -- returns 3512345
 ```
 
