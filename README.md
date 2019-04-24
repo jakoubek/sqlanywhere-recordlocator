@@ -1,4 +1,4 @@
-# Recordlocator for SQL Anywhere
+# RecordLocator for SQL Anywhere
 
 **Two functions to encode and decode integers into a short and easy to read string**
 
