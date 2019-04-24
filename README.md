@@ -8,6 +8,8 @@ A RecordLocator is an alphanumerical string that represents an integer. This lib
 
 A RecordLocator is shorter than the corresponding integer and easier to read and memorize. You can use it to encode autoincrement primary keys from an database to an human-readable representation for your users.
 
+This is a porting of (my own) [RecordLocator library for PHP](https://github.com/jakoubek/php-recordlocator) (which itself is a clone of the corresponding Perl module).
+
 ## Examples
 
 - The integer 5,325 encodes to the RecordLocator 78G.
