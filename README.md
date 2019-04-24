@@ -10,8 +10,6 @@ A RecordLocator is shorter than the corresponding integer and easier to read and
 
 This is a porting of (my own) [RecordLocator library for PHP](https://github.com/jakoubek/php-recordlocator) (which itself is a clone of the corresponding Perl module).
 
-This is a porting of (my own) [RecordLocator library for PHP](https://github.com/jakoubek/php-recordlocator) (which itself is a clone of the corresponding Perl module).
-
 ## Examples
 
 - The integer 5,325 encodes to the RecordLocator 78G.
