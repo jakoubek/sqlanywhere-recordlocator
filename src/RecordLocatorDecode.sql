@@ -72,4 +72,6 @@ BEGIN
 
     RETURN li_number;
 
+    DROP TABLE assign;
+
 END;

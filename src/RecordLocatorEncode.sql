@@ -61,4 +61,6 @@ BEGIN
 
     RETURN ls_result;
 
+    DROP TABLE assign;
+
 END;
